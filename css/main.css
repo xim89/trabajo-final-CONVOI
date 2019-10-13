@@ -1,78 +1,12 @@
-/* =================================================================== 
- *  Hesed Main Stylesheet
- *  Template Ver. 1.0.0
- *  06-26-2019
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # custom block grid STACK breakpoints
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## spacing 
- *  # preloader
- *  # forms
- *    ## style placeholder text
- *    ## change autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *    ## additional typo styles
- *    ## skillbars
- *    ## alert box
- *    ## pagination
- *  # common and reusable styles
- *    ## events list
- *    ## block list
- *  # site header
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle
- *  # hero
- *    ## hero left bar
- *    ## hero content
- *    ## hero content buttons
- *    ## hero social
- *    ## hero scroll
- *    ## hero animations
- *  # about
- *    ## about content
- *    ## schedule of services
- *  # connect
- *  # events
- *  # current series
- *    ## series image
- *    ## series content
- *    ## series buttons
- *    ## series subscribe
- *  # social
- *  # footer
- *    ## footer logo
- *    ## footer list
- *    ## copyright
- *    ## go to top
- *  # page styles and page components
- *    ## page header
- *    ## page content
- *    ## about page
- *    ## event page
- *
- * =================================================================== */
-
-
 /* ===================================================================
- * # custom block grid STACK breakpoints
- *
+ * acà va el estilo
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1000px) {
   .block-1000-full > .column {
     -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+     -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+           max-width: 100%;
   }
 
 }
@@ -141,7 +75,7 @@ a:active {
 }
 
 /* ===================================================================
- * # typography & general theme styles
+ * # acà estàn las fuentes de textos, titulos etc
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -404,7 +338,7 @@ hr {
 }
 
 /* ------------------------------------------------------------------- 
- * ## lists
+ * ## listas
  * ------------------------------------------------------------------- */
 ol {
   list-style: decimal;
@@ -464,7 +398,7 @@ dd {
 }
 
 /* ------------------------------------------------------------------- 
- * ## responsive video container
+ * ## video
  * ------------------------------------------------------------------- */
 .video-container {
   position: relative;
