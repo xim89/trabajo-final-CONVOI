@@ -21,11 +21,6 @@
 
 }
 
-
-/* ===================================================================
- * # base style overrides
- *
- * ------------------------------------------------------------------- */
 html {
   font-size: 10px;
 }
@@ -156,10 +151,12 @@ p img {
   margin: 0;
 }
 
+/* Resumen sobre la banda estilo */
+
 p.lead {
   font-family: "Lora", serif;
   font-weight: 500;
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   line-height: 1.857;
   margin-bottom: 3.6rem;
   color: #000000;
@@ -1520,7 +1517,7 @@ input::-moz-focus-inner {
 .narrow {
   max-width: 930px;
 }
-
+/*  estilo de titulo del resumen pag principal */
 .subhead {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
@@ -3069,7 +3066,7 @@ html.no-csstransitions .hero-content {
   padding-bottom: 8rem;
   background-color: #3b0d11;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.1rem;
   line-height: 1.882;
   color: rgba(255, 255, 255, 0.5);
 }
