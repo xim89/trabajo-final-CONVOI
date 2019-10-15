@@ -843,31 +843,26 @@ input[type="button"] {
   border: 0.2rem solid #272727;
 }
 
+/* boton de contacto  */
 .btn:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.btn:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  background-color: #000000;
+ {
+  background-color: #ffffff;
   border-color: #000000;
   color: #ffffff;
   outline: 0;
 }
 
+.
+}
 
 .btn.btn--primary,
 button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #3b0d11;
-  border-color: #3b0d11;
-  color: #ffffff;
+  background: #6b6b6b;
+  border-color: #6b6b6b;
+  color: #000000;
 }
 
 .btn.btn--primary:hover,
@@ -1021,7 +1016,7 @@ input::-moz-focus-inner {
   background-repeat: no-repeat;
   background: center center;
   background-size: contain;
-  background-image: url(../images/icons/icon-quote.svg);
+  background-image: url(../convoi-imagenes/iconos/icon-quote.svg);
   position: absolute;
   top: 4rem;
   left: 4rem;
@@ -1294,12 +1289,12 @@ input::-moz-focus-inner {
 }
 
 .pgn__prev {
-  background-image: url("../images/icons/icon-arrow-left.svg");
+  background-image: url("../convoi-imagenes/iconos/icon-arrow-left.svg");
   left: 0;
 }
 
 .pgn__next {
-  background-image: url("../images/icons/icon-arrow-right.svg");
+  background-image: url("../convoi-imagenes/iconos/icon-arrow-right.svg");
   right: 0;
 }
 
@@ -1426,15 +1421,15 @@ input::-moz-focus-inner {
 }
 
 .events-list__meta .events-list__meta-date::before {
-  background-image: url(../images/icons/icon-calendar.svg);
+  background-image: url(../convoi-imagenes/iconos/icon-calendar.svg);
 }
 
 .events-list__meta .events-list__meta-time::before {
-  background-image: url(../images/icons/icon-time.svg);
+  background-image: url(../convoi-imagenes/iconos/icon-time.svg);
 }
 
 .events-list__meta .events-list__meta-location::before {
-  background-image: url(../images/icons/icon-location.svg);
+  background-image: url(../convoi-imagenes/iconos/icon-location.svg);
   height: 2.6rem;
   width: 2.6rem;
 }
@@ -2464,7 +2459,7 @@ html.no-csstransitions .convoi-content {
   padding-bottom: 19.2rem;
   min-height: 80rem;
   background-color: #050505;
-  background-image: url(../images/pattern.jpg);
+  background-image: url(../convoi-imagenes/pattern.jpg);
   background-size: 760px 380px;
   color: #ffffff;
   position: relative;
@@ -2589,19 +2584,19 @@ html.no-csstransitions .convoi-content {
 }
 
 .video-content__subscribe-links .ss-apple-podcast a {
-  background-image: url(../images/icons/podcast/icon-podcast.svg);
+  background-image: url(../convoi-imagenes/iconos/podcast/icon-podcast.svg);
 }
 
 .video-content__subscribe-links .ss-spotify a {
-  background-image: url(../images/icons/podcast/icon-spotify.svg);
+  background-image: url(../convoi-imagenes/iconos/podcast/icon-spotify.svg);
 }
 
 .video-content__subscribe-links .ss-soundcloud a {
-  background-image: url(../images/icons/podcast/icon-soundcloud.svg);
+  background-image: url(../convoi-imagenes/iconos/podcast/icon-soundcloud.svg);
 }
 
 .video-content__subscribe-links .ss-youtube a {
-  background-image: url(../images/icons/podcast/icon-youtube.svg);
+  background-image: url(../convoi-imagenes/iconos/podcast/icon-youtube.svg);
 }
 
 /* hacer responsive la parte de lanza de video */
@@ -2758,19 +2753,19 @@ html.no-csstransitions .convoi-content {
 }
 
 .social-list__icon--facebook::before {
-  background-image: url(../images/icons/social/icon-facebook.svg);
+  background-image: url(../convoi-imagenes/iconos/social/icon-facebook.svg);
 }
 
 .social-list__icon--twitter::before {
-  background-image: url(../images/icons/social/icon-twitter.svg);
+  background-image: url(../convoi-imagenes/iconos/social/icon-twitter.svg);
 }
 
 .social-list__icon--instagram::before {
-  background-image: url(../images/icons/social/icon-instagram.svg);
+  background-image: url(../convoi-imagenes/iconos/social/icon-instagram.svg);
 }
 
 .social-list__icon--email::before {
-  background-image: url(../images/icons/social/icon-email.svg);
+  background-image: url(../convoi-imagenes/iconos/social/icon-email.svg);
 }
 
 /* ------------------------------------------------------------------- 
@@ -2835,28 +2830,25 @@ html.no-csstransitions .convoi-content {
 }
 
 
-/* ===================================================================
- * # footer 
- *
- * ------------------------------------------------------------------- */
+/* todo lo que está en el footer */
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
-  background-color: #3b0d11;
+  background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   line-height: 1.882;
-  color: rgba(255, 255, 255, 0.5);
+  color: #000000;
 }
-
+/* mi nombre */
 .s-footer a {
-  color: #ffffff;
+  color: #000000;
 }
-
+/* titulos de footer*/
 .s-footer h4 {
   margin-top: 1.6rem;
   margin-bottom: 2.4rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 .s-footer .btn--footer {
@@ -2875,37 +2867,23 @@ html.no-csstransitions .convoi-content {
   margin-right: auto;
 }
 
-/* -------------------------------------------------------------------
- * ## footer logo 
- * ------------------------------------------------------------------- */
-.footer-logo {
-  margin-bottom: 2.8rem;
-}
 
-.footer-logo a {
-  display: block;
-}
 
-.footer-logo img {
-  width: 138px;
-  height: 36px;
-}
-
-/* -------------------------------------------------------------------
- * ## footer list 
- * ------------------------------------------------------------------- */
+/* accesos rapidos  
+  */
 .footer-list {
   list-style: none;
   margin-left: 0;
 }
 
+
 .footer-list a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #000000;
 }
 
 .footer-list a:hover,
 .footer-list a:focus {
-  color: #ffffff;
+  color: #000000;
 }
 
 .footer-list li {
@@ -2957,9 +2935,9 @@ html.no-csstransitions .convoi-content {
 .ss-go-top svg path {
   fill: #ffffff;
 }
-
+/* transformación de color cuando paso el mouse por arriba */
 .ss-go-top a:hover {
-  background-color: #037c82;
+  background-color: #606363;
   color: #ffffff;
 }
 
@@ -2972,8 +2950,7 @@ html.no-csstransitions .convoi-content {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * footer
- * ------------------------------------------------------------------- */
+ * footer */
 @media screen and (max-width:1400px) {
   .ss-go-top {
     bottom: 3.6rem;
@@ -3014,11 +2991,7 @@ html.no-csstransitions .convoi-content {
 
 /* ===================================================================
  * # page styles and page components 
-  */
-
-/* ------------------------------------------------------------------- 
- * ## page header 
- * ------------------------------------------------------------------- */
+   */
 .page-header {
   min-height: 24rem;
   padding-top: 24rem;
@@ -3063,23 +3036,23 @@ html.no-csstransitions .convoi-content {
 }
 
 .page-header--about {
-  background-image: url(../images/header-bgs/about-header-bg-2000.jpg);
+  background-image: url(../convoi-imagenes/convoi-headers/convoi-sobrelabanda.jpg);
 }
 
 .page-header--contact {
-  background-image: url(../images/header-bgs/contact-header-bg-2000.jpg);
+  background-image: url(../convoi-imagenes/convoi-headers/convoi-contacto.jpg);
 }
 
 .page-header--events {
-  background-image: url(../images/header-bgs/events-header-bg-2000.jpg);
+  background-image: url(../convoi-imagenes/convoi-headers/convoi-fechas .jpg);
 }
 
 .page-header--connect {
-  background-image: url(../images/header-bgs/connect-header-bg-2000.jpg);
+  background-image: url(../convoi-imagenes/convoi-headers/connect-header-bg-2000.jpg);
 }
 
-.page-header--volunteer {
-  background-image: url(../images/header-bgs/volunteer-header-bg-2000.jpg);
+.page-header--convoimusica {
+  background-image: url(../convoi-imagenes/convoi-headers/convoimusica-header-bg-2000.jpg);
 }
 
 .page-header__content {
