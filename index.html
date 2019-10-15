@@ -1,40 +1,35 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-<head>
+<html class="no-js">
+<!-- tipo de doc  -->
+<head> <!-- inicio del head  -->
 
-    <!--- basic page needs
-    ================================================== -->
+    <!-- cosas que voy a poner acá: el charset ayuda al avegador a conocer la codificación de caracteres utilizada, en este caso HTML5 // las etiquetas meta ayudan a poner información para los motores de busqueda, eso ayudaría con el SEO (creo) -->
     <meta charset="utf-8">
     <title>CONVOI</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="convoi banda" content="convoi, banda, cordoba, argentina, musica, metalcore, metal, hardcore, cris salazar, betho cruceño, pupi plomer, fer melian, bruno scotte, rock, alexisonfire">
+    <meta name="Xime Reartes, coderhouse" content=" convoi, banda, metalcore, cordoba, argentina">
 
-    <!-- mobile specific metas
-    ================================================== -->
+    <!-- esta etiqueta ayuda a que se vea correctamente en pantallas de moviles -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS
-    ================================================== -->
+    <!-- llamando al CSS, tengo dos archivos -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <!-- script
-    ================================================== -->
+    <!-- este script me permitió ver qué funciones están disponibles o no-->
     <script src="js/modernizr.js"></script>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <!-- iconos  -->
+    
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
-</head>
+</head> <!-- fin del head  -->
 
 <body id="top">
 
-    <!--  pre loader para que cargue la web 
-    ================================================== -->
+    <!--  pre loader para que cargue la web // elegí animación de puntitos -->
     <div id="preloader">
         <div id="loader" class="dots-jump">
             <div></div>
@@ -53,16 +48,17 @@
         </div>
 
         <nav class="header-nav-wrap">
+        	<!-- menú  -->
             <ul class="header-nav">
                 <li class="current"><a href="index.html" title="Home">Home</a></li>
-                <li><a href="sobrelabanda.html" title="sobrelabanda"> Sobre la banda</a></li>
+                <li><a href="sobrelabanda.html" title="Sobre la banda"> Sobre la banda</a></li>
                 <li><a href="galeria.html" title="Services"> Galería</a></li>
                 <li><a href="musica.html" title="musica"> Música </a></li>
                 <li><a href="fechas.html" title="Fechas"> Próximas Fechas</a></li>
                 <li><a href="contacto.html" title="Contacto">Contacto</a></li>	
             </ul>
         </nav>
-
+        <!-- fin menú  -->
         <a class="header-menu-toggle" href="#0"><span>Menú</span></a>
 
     </header> <!-- aca termina el encabezado -->
@@ -70,19 +66,19 @@
 
     <!-- Esto serìa el titulo de la pagina
     ================================================== -->
-    <section class="s-hero" data-parallax="scroll" data-image-src="images/principal.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section class="s-convoi" data-parallax="scroll" data-image-src="images/principal.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
-        <div class="hero-left-bar"></div>
+        <div class="convoi-left-bar"></div>
 
-        <div class="row hero-content">
+        <div class="row convoi-content">
 
-            <div class="column large-full hero-content__text">
+            <div class="column large-full convoi-content__text">
                 <h1>
                      CONVOI<br>
                     
                 </h1>
 
-                <div class="hero-content__buttons">
+                <div class="convoi-content__buttons"><!-- estos botones van sobre la imagen principal -->
                     <a href="fechas.html" class="btn btn--stroke">Proximas Fechas</a>
                     <a href="sobrelabanda.html" class="btn btn--stroke">Sobre la banda</a>
                 </div>
@@ -90,8 +86,9 @@
 
         </div> <!-- cierro div -->
 
-        <ul class="hero-social">
-            <li class="hero-social__title"> Seguinos</li>
+        <ul class="convoi-social"> <!--  pequeño menú con acceso a redes  sociales -->
+
+            <li class="convoi-social__title"> Seguinos</li>
             <li>
                 <a href="https://www.facebook.com/convoihc/" title="">Facebook</a>
             </li>
@@ -103,7 +100,7 @@
             </li>
         </ul> <!-- boton con acceso a redes sociales fin  -->
 
-        <div class="hero-scroll">
+        <div class="convoi-scroll">
             <a href="#about" class="scroll-link smoothscroll">
                Conocé la banda
             </a>
@@ -130,15 +127,15 @@
 
         </div> 
 
-    </section> <!-- fin de info de la banda div con color -->
+    </section> <!-- fin de info de la banda div fondo blanco -->
 
     <!-- lanzamiento video YT
     ================================================== -->
-    <section class="s-series">
+    <section class="s-convoivideo">
 
         <div class="series-img" style="background-image: url('images/principal2.jpg');"></div>
 
-        <div class="row row-y-center series-content">
+        <div class="row row-y-center video-content">
 
             <div class="column large-half medium-full">
                 <h3 class="subhead">Nuestro último lanzamiento</h3>
@@ -152,18 +149,18 @@
             </div> 
             <!-- boton sobre imagen con acceso a video de youtube -->
             <div class="column large-half medium-full">
-                <div class="series-content__buttons">
+                <div class="video-content__buttons">
                     <a href="https://www.youtube.com/watch?v=O0BGeI_7KSM" class="btn btn--large h-full-width"> Mirá nuestro último video</a>
   
                 </div>
                 <!-- fin de foto con video -->
 
-                <div class="series-content__subscribe">
+                <div class="video-content__subscribe">
                     <p>
                     Para estar al tanto de nuestros lanzamientos suscribite a nuestro canal de Youtube
                     </p>
                     
-                    <ul class="series-content__subscribe-links">
+                    <ul class="video-content__subscribe-links">
                         
                         <li class="ss-spotify"><a href="https://open.spotify.com/artist/7G8rwmYlfptGqlH55hIN7e">Spotify</a></li>
                     
@@ -221,8 +218,7 @@
         <div class="row footer-top">
             <div class="column large-4 medium-5 tab-full">
                 <div class="footer-logo">
-                    <a class="site-footer-logo" href="index.html">
-                       <h3> CONVOI </h3>
+ 				<h3> CONVOI </h3>
                     </a>
                 </div>  
                 <p>
