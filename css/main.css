@@ -2958,8 +2958,8 @@ html.no-csstransitions .convoi-content {
 .page-content {
   padding-top: 12rem;
   padding-bottom: 16rem;
-  background-color: #ffffff;
-}
+  padding-left: 32rem;
+  background-image: url(../convoi-imagenes/fondo.jpg);
 
 .page-content .row {
   max-width: 1080px;
